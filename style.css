@@ -1,0 +1,56 @@
+header{
+    font-family: cursive;
+    text-align: center;
+}
+nav{
+    
+    background-color: rgb(22, 85, 22);
+    padding: 3vw;
+    
+}
+a:link, a:visited, a:hover{
+    color: orange;
+    padding: 2px;
+    margin-left: 150px;
+    border-style: solid;
+    text-decoration: none;
+    border-radius: 3vw;
+
+}
+#state{
+    border-collapse: collapse;
+    width: 50%;
+    margin: auto;
+}
+td, th{
+    padding: 1vw;
+    text-align: left;
+}
+tr:nth-child(even){
+    background-color: rgb(155, 148, 148);
+}
+th{
+    background-color: darkgreen;
+}
+img{
+    float: right;
+    border: 1px solid black;    
+}
+h3{
+    font-family: fantasy;
+}
+hr{
+    border: 1px solid green;
+}
+footer{
+    text-align: center;
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+*{
+    box-sizing: border-box;
+}
+.fa{
+    text-align: center;
+}
